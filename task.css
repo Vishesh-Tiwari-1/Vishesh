@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0px;
+}
+
+body{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.home{
+    background-color: darkgray;
+    padding: 40px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(234, 248, 240);
+    margin: 11px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 5px;
+}
+
+nav{
+    padding: 22px;
+    background-color: rgb(35, 56, 56);
+    font-size: 18px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.one{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+section h1{
+    text-align: center;
+}
+
+.about{
+    float: left;
+    margin: 8px;
+}
+.oabout{
+    float: right;
+    margin: 8px;
+}
+
+section {
+    color: brown;
+}
+
+.container 2{
+    background-color: azure;
+    border: 1.5px solid black;
+    margin: 8px;
+    padding: 11px;
+}
+
+
+
+h1{
+    text-align: center;
+    text-decoration: line-through;
+    font-family: 'Segoe UI';
+    color: darkslategray;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea
+{
+    width: 70%;
+    margin: 7px;
+    padding: 8px;
+    border: 2px dotted grey;
+    border-radius: 6px;
+    color: darkcyan;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+fieldset{
+    background-color: white;
+    margin: 7px;
+    padding: 15px;
+    border: 2px dotted grey;
+    border-radius: 6px;
+    width: 70%;
+}
+
+#email_id , #call{
+    width: 38%;
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    font-family: Georgia;
+    font-size:20px;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+    font-weight: 700;
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(194, 250, 194);
+    color: black;
+}
+
+input[type="submit"]:hover{
+    background-color: lightgreen;
+} 
+
+.luf{
+    margin-left: 100px;
+}
+.luff{
+    text-align: center;
+}
